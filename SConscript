@@ -47,7 +47,7 @@ LOCAL_CPPPATH    = []
 LOCAL_CCFLAGS    = "" 
 LOCAL_ASFLAGS    = ""
 
-CPPPATH          = [os.path.join(GetCurrentDir(), 'inc')]
+CPPPATH          = ['inc']
 CCFLAGS          = "" 
 ASFLAGS          = ""
 
@@ -98,11 +98,11 @@ ignore = []
 # Add relative path support for CPPPATH and LOCAL_CPPPATH
 #---------------------------------------------------------------------------------
 for index, value in enumerate(CPPPATH): 
-    if string.find(value, root) == False: 
+    if root not in value: 
         CPPPATH[index] = os.path.join(root, value)
 
 for index, value in enumerate(LOCAL_CPPPATH): 
-    if string.find(value, root) == False: 
+    if root not in value: 
         LOCAL_CPPPATH[index] = os.path.join(root, value)
 
 if rtconfig.CROSS_TOOL == "gcc": # no test
