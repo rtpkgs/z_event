@@ -41,13 +41,13 @@ DEPENDS = ["PKG_USING_Z_EVENT"]
 #
 # LINKFLAGS: Link options
 #---------------------------------------------------------------------------------
-SOURCES          = [] 
+SOURCES          = Glob('src/*.c')
 
 LOCAL_CPPPATH    = [] 
 LOCAL_CCFLAGS    = "" 
 LOCAL_ASFLAGS    = ""
 
-CPPPATH          = [] 
+CPPPATH          = [os.path.join(GetCurrentDir(), 'inc')]
 CCFLAGS          = "" 
 ASFLAGS          = ""
 

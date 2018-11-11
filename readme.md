@@ -22,7 +22,7 @@
 
 > 说明：请在这里说明该 package 的授权许可，例如： GPLv2、LGPLv2.1、MIT、Apache license v2.0、BSD 等。
 
-hello package 遵循 LGPLv2.1 许可，详见 `LICENSE` 文件。
+z_event package 遵循 WTFPL 许可，详见 `LICENSE` 文件。
 
 ### 1.3 依赖
 
@@ -60,4 +60,4 @@ RT-Thread online packages
 ## 5、联系方式 & 感谢
 
 * 维护：uestczyh222
-* 主页：https://github.com/uestczyh222/z_event
+* 主页：https://github.com/rtpkgs/z_event
