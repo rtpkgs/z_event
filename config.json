@@ -1,0 +1,18 @@
+{
+    "username": "uestczyh222",
+    "list_ignore_inc": "['.git', 'example', 'doc', 'test']",
+    "list_ignore_src": "['test.c', 'example.c']",
+    "templates": {
+        "readme_md": "template-readme-rtt.md",
+        "sconscript": "template-sconscript.py",
+        "sconscript_example": "template-sconscript-example.py",
+        "ci_github": "template-ci-github.yml",
+        "kconfig": "template-kconfig",
+        "package_json": "template-package.json"
+    },
+    "pkg_def_version": "v1.0.0",
+    "commit_content": "[builpkg] Use the buildpkg tool to quickly build ${pkgname}'s packages!",
+    "pkgname": "z_event",
+    "version": "v1.0.0",
+    "pkgname_letter": "Z_EVENT"
+}
